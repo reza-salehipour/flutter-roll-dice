@@ -12,6 +12,13 @@ void main() {
 }
 
 class GradientContainer extends StatelessWidget {
+  //this key is forwarded to stateless widget class
+  const GradientContainer({super.key});
+  // GradientContainer(){
+  //   // initialization work
+  //   // and comments about the widget
+  // }
+
   @override
   Widget build(BuildContext context) {
     return Container(
